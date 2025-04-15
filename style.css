@@ -1,0 +1,39 @@
+body{
+    background-color: #003773;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+    color: #CCCCCC;
+}
+
+h1{
+    
+}
+
+#navbar{
+    background-color: #FF004C;
+    opacity: 95%;
+
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    max-width: auto;
+    max-height: 80%;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    justify-items: center;
+    align-items: center;
+}
