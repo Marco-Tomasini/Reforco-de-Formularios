@@ -1,180 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 
-    <title>Forms</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <title>Forms</title>
 
 
 </head>
 
 
 <body>
-    <header>
-        <div id="navbar">
-            <img id="logo" src="images/Red_Bull_Racing_allmode.svg" alt="Logo" onclick="window.location= 'index.html'">
-        </div>
-    </header>
+  <header>
+    <div id="navbar">
+      <img id="logo" src="images/Red_Bull_Racing_allmode.svg" alt="Logo" onclick="window.location= 'index.html'">
+    </div>
+  </header>
+
+  <main>
+    <div class="center">
+      <h1>Sign Up for a visit to the RBR headquarters</h1>
+    </div>
     
-    <main>
-        <div class="center">
-            <h1>Sign Up for a visit to the RBR headquarters</h1>
-        </div>
+    <div class="fleximg">
 
+      <div class="ad"><img src="images/pattern1.jpg" alt="ad1"></div>
+      
+      <div class="formsDiv">
+        <form class="center">
+          <div class="flex">
+            <div class="margem">
 
-        <div class="formsDiv">
-            <form class="center">
-                <div class="flex">
-                    <div class="margem">
-                        
-                        <h3>General Information</h3>
-                        <label for="Name">Name: </label>
-                        <br>
-                        <input type="text">
-                        <br>
+              <h3>General Information</h3>
+              <label for="Name">Name: </label>
+              <br>
+              <input type="text">
+              <br>
 
-                        <label for="email">Email: </label>
-                        <br>
-                        <input type="email">
-                        <br>
+              <label for="email">Email: </label>
+              <br>
+              <input type="email">
+              <br>
 
-                        <label for="Phone">Phone: </label>
-                        <br>
-                        <input type="tel">
-                        <br>
+              <label for="Phone">Phone: </label>
+              <br>
+              <input type="tel">
+              <br>
 
-                        <label for="Birthday">Date of birth: </label>
-                        <br>
-                        <input type="date">
-                        <br>
-                        <br>
+              <label for="Birthday">Date of birth: </label>
+              <br>
+              <input type="date">
+              <br>
+              <br>
 
-                        <label for="gender">Gender: </label>
-                        <br>
-                        <input class="minus" type="radio" name="gender-c">
-                        <label for="Masculino">Man</label>
-                        <input class="minus" type="radio" name="gender-c">
-                        <label for="Feminino">Woman</label>
-                        <input class="minus" type="radio" name="gender-c">
-                        <label for="Other">Other</label>
-                        <br>            
-                        
-
-                        
-                        <h3>Adress</h3>
-                        <label for="Contry">Contry: </label>
-                        <br>
-                        <input type="text">
-                        <br>
-
-                        <label for="State">State: </label>
-                        <br>
-                        <input type="text">
-                        <br>
-
-                        <label for="City">City: </label>
-                        <br>
-                        <input type="text">
-                        <br>
-
-                        <label for="cep">Zip Code/CEP: </label>
-                        <br>
-                        <input type="number">
-                        <br>
-
-                    </div>
+              <label for="gender">Gender: </label>
+              <br>
+              <input class="minus" type="radio" name="gender-c">
+              <label for="Masculino">Man</label>
+              <input class="minus" type="radio" name="gender-c">
+              <label for="Feminino">Woman</label>
+              <input class="minus" type="radio" name="gender-c">
+              <label for="Other">Other</label>
+              <br>
 
 
 
+              <h3>Address</h3>
+              <label for="Country">Country: </label>
+              <br>
+              <input type="text">
+              <br>
 
-                    <div class="margem">
-                        
-                        <h3>Favorite Categories</h3>
-                        <label>Choose your Favorite Categories:</label><br>
-                        
-                        <div class="checkbox">
-                          <div>
-                            <input class="minus2" type="checkbox" id="c1" name="Category" value="F1">
-                            <label for="c1">Formula1</label>
-                          </div>
-                          <div>
-                            <input class="minus2" type="checkbox" id="c2" name="Category" value="Motorbike">
-                            <label for="c2">Motorbike</label>
-                          </div>
-                          <div>
-                            <input class="minus2" type="checkbox" id="c3" name="Category" value="Breaking">
-                            <label for="c3">Breaking</label>
-                          </div>
-                          <div>
-                            <input class="minus2" type="checkbox" id="c4" name="Category" value="Superbike">
-                            <label for="c4">Superbike</label>
-                          </div>
-                          <div>
-                            <input class="minus2" type="checkbox" id="c5" name="Category" value="BMXing">
-                            <label for="c5">BMXing</label>
-                          </div>
-                          <div>
-                            <input class="minus2" type="checkbox" id="c6" name="Category" value="Skateboarding">
-                            <label for="c6">Skateboarding</label>
-                          </div>
-                          <div>
-                            <input class="minus2" type="checkbox" id="c5" name="Category" value="MC Battle">
-                            <label for="c5">MC Battle</label>
-                          </div>
-                          <div>
-                            <input class="minus2" type="checkbox" id="c6" name="Category" value="Surfing">
-                            <label for="c6">Surfing</label>
-                          </div>
-                        </div>
-                                
-                        
+              <label for="State">State: </label>
+              <br>
+              <input type="text">
+              <br>
 
-                        
-                        <h3>Adress</h3>
-                        <label for="Contry">Contry: </label>
-                        <br>
-                        <input type="text">
-                        <br>
+              <label for="City">City: </label>
+              <br>
+              <input type="text">
+              <br>
 
-                        <label for="State">State: </label>
-                        <br>
-                        <input type="text">
-                        <br>
+              <label for="cep">Zip Code/CEP: </label>
+              <br>
+              <input type="number">
+              <br>
 
-                        <label for="City">City: </label>
-                        <br>
-                        <input type="text">
-                        <br>
+            </div>
 
-                        <label for="cep">Zip Code/CEP: </label>
-                        <br>
-                        <input type="number">
-                        <br>
-                    </div>
+
+            <div class="margem">
+
+              <h3>Favorite Categories</h3>
+              <label>Choose your Favorite Categories:</label><br>
+
+              <div class="checkbox">
+                <div>
+                  <input class="minus2" type="checkbox" id="c1" name="Category" value="F1">
+                  <label for="c1">Formula1</label>
                 </div>
-            </form>
+                <div>
+                  <input class="minus2" type="checkbox" id="c2" name="Category" value="Motorbike">
+                  <label for="c2">Motorbike</label>
+                </div>
+                <div>
+                  <input class="minus2" type="checkbox" id="c3" name="Category" value="Breaking">
+                  <label for="c3">Breaking</label>
+                </div>
+                <div>
+                  <input class="minus2" type="checkbox" id="c4" name="Category" value="Superbike">
+                  <label for="c4">Superbike</label>
+                </div>
+                <div>
+                  <input class="minus2" type="checkbox" id="c5" name="Category" value="BMXing">
+                  <label for="c5">BMXing</label>
+                </div>
+                <div>
+                  <input class="minus2" type="checkbox" id="c6" name="Category" value="Skateboarding">
+                  <label for="c6">Skateboarding</label>
+                </div>
+                <div>
+                  <input class="minus2" type="checkbox" id="7" name="Category" value="MC Battle">
+                  <label for="c7">MC Battle</label>
+                </div>
+                <div>
+                  <input class="minus2" type="checkbox" id="c8" name="Category" value="Surfing">
+                  <label for="c8">Surfing</label>
+                </div>
+              </div>
 
 
+              <h3>Others</h3>
+              <label for="Scuderia">Best Scuderia in the World: </label>
+              <select name="scuderia" id="scuderia">
+                <option value="Red_Bull_Racing">Red Bull Racing</option>
+                <option value="McLaren">McLaren</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Ferrari">Ferrari</option>
+                <option value="Hass">Hass</option>
+                <option value="Williams">Williams</option>
+                <option value="Aston Martin">Aston Martin</option>
+                <option value="Racing_Bulls">Racing Bulls</option>
+                <option value="Alpine">Alpine</option>
+                <option value="Kick_Sauber">Kick Sauber</option>
+              </select>
+              <br>
 
+              <label for="Color">Favorite Color: </label>
+              <input type="color">
+              <br>
 
-        </div>
+              
 
-        <div>
+            </div>
+          </div>
+
+          <div class="passw">
             <h2>Confirm Registration</h2>
             <label for="pass">Password: </label>
             <br>
-            <input type="password">
+            <input type="password" id="password">
             <br>
 
-            <label for="pass">Confirm Password: </label>
+            <label for="confirmpass">Confirm Password: </label>
             <br>
-            <input type="password">
-        </div>
-        
-    </main>
+            <input type="password" id="confirmpass">
+          </div>
+        </form>
+
+
+
+
+      </div>
+
+      <div class="ad"><img src="images/pattern2.png" alt="ad2"></div>
+
+    </div>
+
+
+  </main>
 
 
 
@@ -186,4 +193,5 @@
 <footer>
 
 </footer>
+
 </html>

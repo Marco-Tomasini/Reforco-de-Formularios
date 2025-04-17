@@ -103,6 +103,39 @@ input{
 .checkbox{
     display: grid; 
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    width: 150%;
+    width: 110%;
+}
 
+.passw {
+    position: static;
+    width: 100%;
+    max-width: 50rem;
+    text-align: left;
+}
+  
+  .passw h2 {
+    text-align: center;
+}
+
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="number"], input[type="password"], input[type="color"] {
+    width: 100%;
+}
+
+.fleximg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.ad{
+    flex: 0 0 20.1rem;
+}
+
+.ad img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
