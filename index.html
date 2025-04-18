@@ -175,51 +175,69 @@
               <br>
 
 
-              <label for="Color">Favorite Color: </label>
-              <input type="color">
+              <label for="Pilotos">Best Pilots: </label>
+              <select name="Pilotos" id="Pilotos">
+                <option value="select" disabled selected>Select...</option>
+                <option value="Red_Bull_Racing1">Max Verstappen, Yuki Tsunoda</option>
+                <option value="McLaren1">Oscar Piastri, Lando Norris</option>
+                <option value="Mercedes1">George Russell, Kimi Antonelli</option>
+                <option value="Ferrari1">Charles Leclerc, Lewis Hamilton</option>
+                <option value="Hass1">Esteban Ocon, Oliver Bearman</option>
+                <option value="Williams1">Alexander Albon, Carlos Sainz</option>
+                <option value="Aston Martin1">Lance Stroll, Fernando Alonso</option>
+                <option value="Racing_Bulls1">Liam Lawson, Isack Hadjar</option>
+                <option value="Alpine1">Pierre Gastly, Jack Doohan</option>
+                <option value="Kick_Sauber1">Nico Hulkenberg, Gabriel Bortoleto</option>
+              </select>
               <br>
               
-              <!--start-->
-              <label for="Color">Favorite Color: </label>
-              <input type="color">
+              <label for="animal">Favorite Animal: </label>
+              <select name="animal" id="animal">
+                <option value="select" disabled selected>Select...</option>
+                <option value="a1">Bull</option>
+                <option value="a2">Cat</option>
+                <option value="a3">Dog</option>
+                <option value="a4">Duck</option>
+              </select>
+              <br>
+
+              <label for="Hobbie">Hobbies: </label>
+              <input type="text" id="hobbie">
+              <br>
+
+              <label for="carmodel">Your Model Car: </label>
+              <input type="text" id="carmodel">
+              <br>
+
+              <label for="carcolor">Car color: </label>
+              <input type="color" id="carcolor">
               <br>
 
               <label for="Color">Favorite Color: </label>
-              <input type="color">
+              <input type="color" id="color">
               <br>
 
-              <label for="Color">Favorite Color: </label>
-              <input type="color">
+              <label for="HairColor">Hair Color: </label>
+              <input type="color" id="HairColor">
               <br>
 
-              <label for="Color">Favorite Color: </label>
-              <input type="color">
+              <label for="EyeColor">Eyes Color: </label>
+              <input type="color" id="EyeColor">
               <br>
 
-              <label for="Color">Favorite Color: </label>
-              <input type="color">
+              <label for="rdbull">Do you like RBR: </label>
+              <br>
+              <input class="minus" type="radio" name="gender-c" id="r1" value="no">
+              <label for="yes">Yes</label>
+              <input class="minus" type="radio" name="gender-c" id="r2" value="yes">
+              <label for="no">No</label>
               <br>
 
-              <label for="Color">Favorite Color: </label>
-              <input type="color">
-              <br>
-
-              <label for="Color">Favorite Color: </label>
-              <input type="color">
-              <br>
-
-              <label for="Color">Favorite Color: </label>
-              <input type="color">
-              <br>
-
-              <label for="Color">Favorite Color: </label>
-              <input type="color">
-              <br>
-
-              <label for="Color">Favorite Color: </label>
-              <input type="color">
-              <br>
-              <!--end-->
+              <label for="likeRBR">How much do you like RBR? (from 0 to 10):</label>
+              <div class="centerNumber">
+                <input type="range" id="likeRBR" name="likeH" min="0" max="10" value="0" oninput="this.nextElementSibling.value = this.value">
+                <output>0</output>
+              </div>
 
 
             </div>
