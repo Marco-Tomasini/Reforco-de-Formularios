@@ -96,11 +96,6 @@ select{
     align-items: center;
 }
 
-#password{
-    justify-items: center;
-    align-items: center;
-}
-
 .minus{
     width: 5%;
     border-radius: 0.313rem;
@@ -158,6 +153,10 @@ input[type="range"]{
 
 }
 
+input[type="submit"], input[type="reset"]{
+    width: 45%;
+}
+
 input::file-selector-button {
     background-color: #00174C;
     box-shadow: none;
@@ -201,4 +200,14 @@ input::file-selector-button {
 .centerNumber output {
     min-width: 2rem;
     text-align: center;
+  }
+
+  #send, #reset{
+    margin-top: 1rem;
+  }
+
+  .spaceB{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
   }

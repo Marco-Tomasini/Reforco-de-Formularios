@@ -59,11 +59,11 @@
               <label for="gender">Gender: </label>
               <br>
               <input class="minus" type="radio" name="gender-c" id="g1" value="man">
-              <label for="Masculino">Man</label>
+              <label for="g1">Man</label>
               <input class="minus" type="radio" name="gender-c" id="g2" value="woman">
-              <label for="Feminino">Woman</label>
+              <label for="g2">Woman</label>
               <input class="minus" type="radio" name="gender-c" id="g3" value="other">
-              <label for="Other">Other</label>
+              <label for="g3">Other</label>
               <br>
 
 
@@ -98,7 +98,7 @@
               <br>
 
               <label for="Himage">House Photo: </label>
-              <input type="file" id="Himage">
+              <input type="file" id="Himage" accept="image/*">
               <br>
                         
               <label for="HColor">House Color: </label>
@@ -225,17 +225,17 @@
               <input type="color" id="EyeColor">
               <br>
 
-              <label for="rdbull">Do you like RBR: </label>
+              <label for="r2">Do you like RBR: </label>
               <br>
-              <input class="minus" type="radio" name="gender-c" id="r1" value="no">
-              <label for="yes">Yes</label>
-              <input class="minus" type="radio" name="gender-c" id="r2" value="yes">
-              <label for="no">No</label>
-              <br>
+              <input class="minus" type="radio" name="resp" id="r1" value="no">
+              <label for="r1">No</label>
+              <input class="minus" type="radio" name="resp" id="r2" value="yes">
+              <label for="r2">Yes</label>
+              <br>              
 
               <label for="likeRBR">How much do you like RBR? (from 0 to 10):</label>
               <div class="centerNumber">
-                <input type="range" id="likeRBR" name="likeH" min="0" max="10" value="0" oninput="this.nextElementSibling.value = this.value">
+                <input type="range" id="likeRBR" name="likeRBR" min="0" max="10" value="0" oninput="this.nextElementSibling.value = this.value">
                 <output>0</output>
               </div>
 
@@ -253,7 +253,13 @@
             <label for="confirmpass">Confirm Password: </label>
             <br>
             <input type="password" id="confirmpass">
+
+            <div class="spaceB">
+              <input type="submit" value="Submit" id="send" onclick="validarDadosLogin()">
+              <input type="reset" value="Reset" id="reset" onclick="window.location='index.html'">
+            </div>
           </div>
+
         </form>
 
 
