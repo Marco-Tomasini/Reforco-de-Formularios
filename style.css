@@ -149,8 +149,21 @@ select{
 }
 
 
-input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="number"], input[type="password"], input[type="color"] {
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="number"], input[type="password"], input[type="color"], input[type="file"]{
     width: 100%;
+}
+
+input[type="range"]{
+    width: 90%;
+
+}
+
+input::file-selector-button {
+    background-color: #00174C;
+    box-shadow: none;
+    text-shadow: none;
+    color: #CCCCCC;
+
 }
 
 .fleximg {
@@ -169,7 +182,23 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="date"], 
     height: 100%;
 }
 
-#footer h4{
+#footer h4, h5, h6{
     margin: 0;
     padding: 0;
 }
+
+#footer a{
+    color: #CCCCCC;
+}
+
+.centerNumber{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.centerNumber output {
+    min-width: 2rem;
+    text-align: center;
+  }
